@@ -14,11 +14,17 @@
 
 .bg-color
   &-1
-    background-color: #E4FEFE
+    background-color: #E3F5F6
   &-2
-    background-color: #E8EEFD
+    background-color: #FBE7E4
   &-3
+    background-color: #FEFAF3
+  &-4
     background-color: #FFF8D5
+  &-5
+    background-color: #E4FEFE
+  &-6
+    background-color: #E3F3F4
 
   &-sintesis
     background-color: #F9F9F9
@@ -85,15 +91,16 @@ $custom-card-img-height: 322px
     object-fit: cover
 
 .acordion__header
-  background-color: #F0E9F6 !important
+  background-color: lighten($color-acento-contenido, 30%) !important
 
 .acordion__header--active
-  background-color: #7F35AB !important
+  background-color: $color-acento-contenido !important
   h4, i
-    color: #fff !important
+    color: #000 !important
 
 .acordion__contenido
-  background-color: #F0E9F6!important
+  background-color: lighten($color-acento-contenido, 25%) !important
+
 
 
 .anexo__texto
@@ -147,8 +154,11 @@ $custom-card-img-height: 322px
   background-color: #FDF9F3
 
 .material-complementario
+  p,a
+    font-size: 1rem !important
   a
     text-decoration: none
+    color: $color-sistema-texto
 
 .img-infografica
   background-color: transparent
@@ -165,7 +175,7 @@ $custom-card-img-height: 322px
   background-color: #F8BC17
 
 .img-infografica__card, .img-infografica-b__card
-  width: 350px !important
+  width: 450px !important
   
 .img-infografica__item__numero
   font-weight: 900

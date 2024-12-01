@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4.text-uppercase Educación para la paz y los derechos humanos
+              p.descripcion.mb-4 La educación para la paz y los derechos humanos es un pilar esencial en la construcción de una sociedad justa y equitativa. En esta unidad, se explorará cómo la enseñanza puede transformar actitudes y fomentar valores que promuevan la convivencia pacífica. Desde la importancia de la paz como un ideal de justicia social hasta el respeto por la diversidad, el contenido profundiza en estrategias pedagógicas que integran los derechos humanos en contextos escolares, comunitarios y profesionales. Esta formación no solo busca prevenir conflictos, sino también empoderar a los individuos para que actúen como agentes de cambio en sus comunidades. 
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 #[strong ¡Prepárate para fortalecer tus competencias y contribuir al bienestar social!]
 
 
               .button-container.mt-auto
