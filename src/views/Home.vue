@@ -21,7 +21,7 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
               p.home-main-title UNIDAD 3
-              h1.home-title.mb-4.text-uppercase Educación para la paz y los derechos humanos
+              h1.home-title.mb-4 Educación para la paz y los derechos humanos
               p.descripcion.mb-4 La educación para la paz y los derechos humanos es un pilar esencial en la construcción de una sociedad justa y equitativa. En esta unidad, se explorará cómo la enseñanza puede transformar actitudes y fomentar valores que promuevan la convivencia pacífica. Desde la importancia de la paz como un ideal de justicia social hasta el respeto por la diversidad, el contenido profundiza en estrategias pedagógicas que integran los derechos humanos en contextos escolares, comunitarios y profesionales. Esta formación no solo busca prevenir conflictos, sino también empoderar a los individuos para que actúen como agentes de cambio en sus comunidades. 
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4 #[strong ¡Prepárate para fortalecer tus competencias y contribuir al bienestar social!]

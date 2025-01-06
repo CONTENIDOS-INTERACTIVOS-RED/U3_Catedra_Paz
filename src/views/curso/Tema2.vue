@@ -153,6 +153,24 @@
               img(src="@/assets/curso/tema2/3.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Cada una de ellas aborda diferentes aspectos del conflicto, asegurando no solo que se resuelva el problema inmediato, sino que se fortalezcan las relaciones y estructuras sociales a largo plazo. Además, al estar fundamentadas en los principios de equidad, dignidad y respeto, estas estrategias promueven una cultura de paz y justicia que contribuye a la prevención de futuros conflictos. 
+
+    .bg-full-width.border-top.color-primario
+      .px-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/50327?page=37" target="_blank" rel="noopener noreferrer") Joyanes Aguilar, L. (2005). Programación en C: metodología, algoritmos y estructura de datos. McGraw-Hill España.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/RSJrBEhdZxw" target="_blank" rel="noopener noreferrer") BBC News Mundo. (2020, 2 octubre). Qué son los algoritmos y cómo aprenden de nosotros | BBC Mundo
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>

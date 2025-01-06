@@ -110,34 +110,216 @@
         figure
           img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in")
 
-    .bg-full-width.border-top.color-primario
+    .bg-full-width.border-top.actividad.bg-color-actividad
       .p-4.p-md-5
-        h2 Material complementario
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .px-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
         .row.material-complementario
           .col-12.col-md-6.col-lg-7
-            p Incluye libros impresos, digitales, electrónicos, ebook, artículos de revistas impresas, electrónicas, informes, seminarios, congresos, ponencias, presentaciones o diapositivas online, etc.  Desde el 2019 en adelante excepto casos excepcionales.  Bases de datos (licenciadas por la institución), bases de datos  libres, videos bajo licenciamiento creative commons
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Barba, JB (1997). Educación para los derechos humanos: Los derechos humanos como educación valoral.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/50327?page=37" target="_blank" rel="noopener noreferrer") Joyanes Aguilar, L. (2005). Programación en C: metodología, algoritmos y estructura de datos. McGraw-Hill España.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Sánchez Cardona, M. (2016). Educación para la cultura de paz: Una aproximación psicopedagógica.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span Marín Ibáñez, R. (2000). Educación para la paz: El 2000, año internacional de la cultura de la paz.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'20px'}")
-              span UNESCO. (1995). Educación para una cultura de paz. Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/RSJrBEhdZxw" target="_blank" rel="noopener noreferrer") BBC News Mundo. (2020, 2 octubre). Qué son los algoritmos y cómo aprenden de nosotros | BBC Mundo
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema3',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Son temporales y cambiantes',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Son universales y aplican a todas las personas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Son exclusivos de ciertos grupos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Son opcionales',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Fomenta la homogeneización cultural',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Debilita la identidad cultural de los pueblos',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Limita las oportunidades de interacción',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'La mediación en un conflicto tiene como objetivo principal:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Imponer una solución rápida',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Facilitar el diálogo entre las partes',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Determinar la culpabilidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Ignorar las preocupaciones de una parte',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: 'En un foro comunitario, es importante:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Escuchar solo a las autoridades',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Fomentar la participación de todos los miembros',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Decidir por votación sin consultar a los demás',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Excluir las opiniones de los más jóvenes',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Aplicar una sanción severa',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Reparar el daño y restablecer las relaciones',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Castigar a las partes involucradas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Ignorar el contexto del conflicto',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
 }
 </script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
