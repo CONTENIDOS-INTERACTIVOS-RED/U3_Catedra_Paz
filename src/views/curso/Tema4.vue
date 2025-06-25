@@ -2,7 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno(
       :titulo="'Unidad 3. Educación para la paz y los derechos humanos'"
-      :subTitulo="'SINTESIS'"
+      :subTitulo="'Síntesis'"
     )
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       
