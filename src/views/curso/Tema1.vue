@@ -121,10 +121,13 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/50327?page=37" target="_blank" rel="noopener noreferrer") Joyanes Aguilar, L. (2005). Programación en C: metodología, algoritmos y estructura de datos. McGraw-Hill España.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/68956" target="_blank" rel="noopener noreferrer") Sánchez Cardona, M. (2016). Educación para la cultura de paz: Una aproximación psicopedagógica.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/RSJrBEhdZxw" target="_blank" rel="noopener noreferrer") BBC News Mundo. (2020, 2 octubre). Qué son los algoritmos y cómo aprenden de nosotros | BBC Mundo
+              a(href="https://youtu.be/xsYk8_J7qzw?si=X2u9gXr_VJPMv6Vk" target="_blank" rel="noopener noreferrer") Cruz Roja Española (24 de junio de 2021) Resolución de conflictos personales. (Archivo de video) YouTube
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://resoluciondeconflictosuniedu.blogspot.com/" target="_blank" rel="noopener noreferrer") Uniminuto (21 de mayo de 2021) Resolución de conflictos (blog)
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')

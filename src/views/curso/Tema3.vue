@@ -124,10 +124,13 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/50327?page=37" target="_blank" rel="noopener noreferrer") Joyanes Aguilar, L. (2005). Programación en C: metodología, algoritmos y estructura de datos. McGraw-Hill España.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/73415" target="_blank" rel="noopener noreferrer") Metaute,M. (1999) Diversidad cultural y educación. Editorial: Universidad de Guadalajara.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/RSJrBEhdZxw" target="_blank" rel="noopener noreferrer") BBC News Mundo. (2020, 2 octubre). Qué son los algoritmos y cómo aprenden de nosotros | BBC Mundo
+              a(href="https://youtu.be/cpjSXbZjeOk?si=w6rf3OXNtUxOx61S" target="_blank" rel="noopener noreferrer") "De lo creativo a lo técnico" (archivo de video) Youtube
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://neuronilla.com/solucion-creativa/" target="_blank" rel="noopener noreferrer") Neuronilla (25 de mayo de 2008) Solución Creativa de Problemas (Creative Problem Solving) (Blog)
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
